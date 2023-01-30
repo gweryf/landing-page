@@ -1,91 +1,59 @@
+/* eslint-disable @next/next/no-img-element */
+import Head from './head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import {BsFillMoonStarsFill} from 'react-icons/bs'
+import card1 from './service1.jpg'
+// import card2 from 'public/service-2.png'
+// import card3 from 'public/service-3.png'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <div>
+      <Head>
+        <title>Credit Card Fraud</title>
+        <link rel="icon" href='./favicon.ico'/>
+      </Head>
+      <main className=' bg-white px-10'>
+        <section className='min-h-screen'>
+          <nav className=' py-10 mb-12 flex justify-between'>
+            <h1 className=' text-xl'>developed by BigBitTheory</h1>
+            <ul className=' flex items-center'>
+              <li>
+                <BsFillMoonStarsFill className=' cursor-pointer text-2xl'/>
+              </li>
+              <li>
+                <a className=' bg-cyan-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Log-In</a>
+              </li>
+            </ul>
+          </nav>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
+          <div className=' text-center p-10 py-10'>
+            <h2 className=' text-5xl py-2 text-teal-600 font-medium'>Social Dock</h2>
+            <h3 className='text-2xl py-2'>A place where excellent developers meet excellent projects</h3>
+            <p className=' text-md py-5 leading-8 text-gray-800'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet nisl fringilla, luctus quam id, accumsan nulla. Praesent eu leo nibh. Phasellus eget libero cursus purus sollicitudin ullamcorper. Class.
+            </p>
+          </div>
+        </section>
 
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        <section>
+          <div>
+            <h3 className=' text-3xl py-1'>Services we offer</h3>
+            <p className=' text-md py-2 leading-8 text-gray-800'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mi tellus, dapibus sed ante ac, ultrices congue nunc. Aenean accumsan.
+            </p>
+          </div>
+          <div>
+            <div className=' text-center shadow-lg p-10'>
+              <Image src={card1} width={200} height={200}/>
+              <h3 className=' text-lg font-medium pt-8 pb-2'>Service-1</h3>
+              <p className='py-2'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum magna vitae mi pellentesque, ut.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
   )
 }
