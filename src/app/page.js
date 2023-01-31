@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href='./favicon.ico'/>
       </Head>
       <div className='  bg-indigo-900 text-black  md:px-20 lg:px-40 '>
-        <section className=''>
+        <section className=' text-white'>
           <nav className=' py-10 mb-12 flex justify-between'>
             <h1 className='md:text-xl'>developed by BigBitTheory</h1>
             <ul className=' flex items-center'>
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='p-10'>
+        <section className='p-10 text-white'>
           <div>
             <h3 className=' text-3xl py-1'>Some of our amazing <span className=' text-teal-600'>features</span> include:</h3>
             <p className=' text-md py-2 leading-8 text-white'>
@@ -79,12 +79,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section className=' text-white'>
         <div className='p-2'>
             <h3 className=' text-3xl py-1'>How <span className='text-teal-600'>Social Dock</span> helps you</h3>
           </div>
           <div className=' lg:flex gap-10 p-10'>
-            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl hover:scale-110 transition duration-300 ease-in-out '>
+            <div className='bg-indigo-800 my-10 text-center shadow-lg p-10 rounded-xl hover:scale-110 transition duration-300 ease-in-out '>
               <Image className='mx-auto' src={card4} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Get Upskilled</h3>
               <p className='py-2'>
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
 
           <div>
-            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl hover:scale-110 transition duration-300 ease-in-out'>
+            <div className='bg-indigo-800 text-center my-10 shadow-lg p-10 rounded-xl hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card5} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Create Profile</h3>
               <p className='py-2'>
@@ -103,7 +103,7 @@ export default function Home() {
           </div>
 
           <div>
-            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl hover:scale-110 transition duration-300 ease-in-out'>
+            <div className='bg-indigo-800 text-center shadow-lg my-10 p-10 rounded-xl hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card6} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Hassle Free</h3>
               <p className='py-2'>
