@@ -8,6 +8,7 @@ import card3 from './service3.jpg'
 import card4 from './service4.jpg'
 import card5 from './service5.jpg'
 import card6 from './service6.jpg'
+import Footer from './footer'
 
 export default function Home() {
   return (
@@ -48,7 +49,7 @@ export default function Home() {
             </p>
           </div>
           <div className=' lg:flex gap-10'>
-            <div className=' text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className=' text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card1} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Multi-Device</h3>
               <p className='py-2'>
@@ -57,7 +58,7 @@ export default function Home() {
             </div>
 
           <div>
-            <div className=' text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className=' text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card2} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Privacy</h3>
               <p className='py-2'>
@@ -67,7 +68,7 @@ export default function Home() {
           </div>
 
           <div>
-            <div className=' text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className=' text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card3} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>User Friendly UI</h3>
               <p className='py-2'>
@@ -82,8 +83,8 @@ export default function Home() {
         <div>
             <h3 className=' text-3xl py-1'>How <span className='text-teal-600'>Social Dock</span> helps you</h3>
           </div>
-          <div className=' lg:flex gap-10'>
-            <div className=' text-center shadow-lg p-10 rounded-xl my-10'>
+          <div className=' lg:flex gap-10 '>
+            <div className=' text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out '>
               <Image className='mx-auto' src={card4} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Get Upskilled</h3>
               <p className='py-2'>
@@ -92,7 +93,7 @@ export default function Home() {
             </div>
 
           <div>
-            <div className=' text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className=' text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card5} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Create Profile</h3>
               <p className='py-2'>
@@ -102,7 +103,7 @@ export default function Home() {
           </div>
 
           <div>
-            <div className=' text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className=' text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card6} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Hassle Free</h3>
               <p className='py-2'>
@@ -112,17 +113,11 @@ export default function Home() {
           </div>
           </div>
         </section>
-
-        <footer className=' bg-teal-600 text-center text-white p-5'>
-          <div className=' text-2xl'>Made with ❤️ by</div>
-          <ul>
-            <li>Priyam Shrivastava</li>
-            <li>Rahil Siddique</li>
-            <li>Manish Yadav</li>
-            <li>Aditya Yadav</li>
-          </ul>
-        </footer>
-      </main>
+ </main>
+       <div className='p-10  bg-teal-600'>
+        <Footer/>
+       </div>
+     
     </div>
   )
 }
