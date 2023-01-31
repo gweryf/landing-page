@@ -20,13 +20,13 @@ export default function Home() {
       <main className=' bg-indigo-900 text-white px-10 md:px-20 lg:px-40'>
         <section className=''>
           <nav className=' py-10 mb-12 flex justify-between'>
-            <h1 className=' text-xl'>developed by BigBitTheory</h1>
+            <h1 className='md:text-xl'>developed by BigBitTheory</h1>
             <ul className=' flex items-center'>
               <li>
                 <BsFillMoonStarsFill className=' cursor-pointer text-2xl'/>
               </li>
               <li>
-                <a className=' bg-cyan-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Log-In</a>
+                <a className='bg-cyan-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Log-In</a>
               </li>
             </ul>
           </nav>
@@ -84,7 +84,7 @@ export default function Home() {
             <h3 className=' text-3xl py-1'>How <span className='text-teal-600'>Social Dock</span> helps you</h3>
           </div>
           <div className=' lg:flex gap-10 '>
-            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out '>
+            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl hover:scale-110 transition duration-300 ease-in-out '>
               <Image className='mx-auto' src={card4} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Get Upskilled</h3>
               <p className='py-2'>
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
 
           <div>
-            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
+            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card5} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Create Profile</h3>
               <p className='py-2'>
@@ -103,7 +103,7 @@ export default function Home() {
           </div>
 
           <div>
-            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
+            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card6} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Hassle Free</h3>
               <p className='py-2'>

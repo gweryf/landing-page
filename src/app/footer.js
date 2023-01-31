@@ -4,7 +4,7 @@ import cardlogo from '../pages/images/logohb.png'
 export default function Footer() {
   
     return (
-        <div className=' max-w-1240px w-full mx-auto py-2rem px-10 grid lg:grid-cols-3 gap-8 text-white'>
+        <div className=' max-w-1240px w-full mx-auto px-10 grid lg:grid-cols-3 gap-8 text-white'>
             <div className='h-[60%] w-full sm:m-10 sm:px-10  hover:scale-110 transition duration-300 ease-in-out'>
                               <Image className='mx-auto' src={cardlogo} width={200} height={300}/>
 
