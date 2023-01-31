@@ -17,7 +17,7 @@ export default function Home() {
         <title>Credit Card Fraud</title>
         <link rel="icon" href='./favicon.ico'/>
       </Head>
-      <main className=' bg-white px-10 md:px-20 lg:px-40'>
+      <main className='  bg-black px-10 md:px-20 lg:px-40'>
         <section className=''>
           <nav className=' py-10 mb-12 flex justify-between'>
             <h1 className=' text-xl'>developed by BigBitTheory</h1>
@@ -113,8 +113,9 @@ export default function Home() {
           </div>
           </div>
         </section>
+       
  </main>
-       <div className='p-10  bg-teal-600'>
+        <div className=' pt-3 bg-teal-600'>
         <Footer/>
        </div>
      
