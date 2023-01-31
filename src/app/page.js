@@ -48,7 +48,7 @@ export default function Home() {
               Our platform aims to provide the best features out there to help our fellow developers connect with like-minded and skilled contributors.
             </p>
           </div>
-          <div className=' lg:flex gap-10 '>
+          <div className=' lg:flex gap-10 p-10'>
             <div className=' bg-indigo-800 text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card1} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Multi-Device</h3>
@@ -84,7 +84,7 @@ export default function Home() {
             <h3 className=' text-3xl py-1'>How <span className='text-teal-600'>Social Dock</span> helps you</h3>
           </div>
           <div className=' lg:flex gap-10 p-10'>
-            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out '>
+            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl hover:scale-110 transition duration-300 ease-in-out '>
               <Image className='mx-auto' src={card4} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Get Upskilled</h3>
               <p className='py-2'>
