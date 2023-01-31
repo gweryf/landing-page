@@ -17,7 +17,7 @@ export default function Home() {
         <title>Credit Card Fraud</title>
         <link rel="icon" href='./favicon.ico'/>
       </Head>
-      <main className='  bg-black px-10 md:px-20 lg:px-40'>
+      <main className='  bg-indigo-900 text-black px-10 md:px-20 lg:px-40'>
         <section className=''>
           <nav className=' py-10 mb-12 flex justify-between'>
             <h1 className=' text-xl'>developed by BigBitTheory</h1>
@@ -34,8 +34,8 @@ export default function Home() {
           <div className=' text-center p-10 py-10'>
             <h2 className=' text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Social Dock</h2>
             <h3 className='text-2xl py-2 md:text-3xl'>A place where excellent developers meet excellent projects</h3>
-            <p className=' text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>
-            It can be extremely difficult for developers to find collaborators for their projects and find people to discuss projects.<br></br><span className=' text-teal-900 text-2xl'>Social Dock</span> aims to solve this issue by providing the best social platform out there for developers!
+            <p className=' text-md py-5 leading-8 text-white md:text-xl max-w-xl mx-auto'>
+            It can be extremely difficult for developers to find collaborators for their projects and find people to discuss projects.<br></br><span className=' text-teal-600 text-2xl'>Social Dock</span> aims to solve this issue by providing the best social platform out there for developers!
 
             </p>
           </div>
@@ -43,13 +43,13 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className=' text-3xl py-1'>Some of our amazing <span className=' text-teal-800'>features</span> include:</h3>
-            <p className=' text-md py-2 leading-8 text-gray-800'>
+            <h3 className=' text-3xl py-1'>Some of our amazing <span className=' text-teal-600'>features</span> include:</h3>
+            <p className=' text-md py-2 leading-8 text-white'>
               Our platform aims to provide the best features out there to help our fellow developers connect with like-minded and skilled contributors.
             </p>
           </div>
           <div className=' lg:flex gap-10'>
-            <div className=' text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
+            <div className=' bg-indigo-800 text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card1} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Multi-Device</h3>
               <p className='py-2'>
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
 
           <div>
-            <div className=' text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
+            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card2} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Privacy</h3>
               <p className='py-2'>
@@ -68,7 +68,7 @@ export default function Home() {
           </div>
 
           <div>
-            <div className=' text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
+            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card3} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>User Friendly UI</h3>
               <p className='py-2'>
@@ -84,7 +84,7 @@ export default function Home() {
             <h3 className=' text-3xl py-1'>How <span className='text-teal-600'>Social Dock</span> helps you</h3>
           </div>
           <div className=' lg:flex gap-10 '>
-            <div className=' text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out '>
+            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out '>
               <Image className='mx-auto' src={card4} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Get Upskilled</h3>
               <p className='py-2'>
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
 
           <div>
-            <div className=' text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
+            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card5} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Create Profile</h3>
               <p className='py-2'>
@@ -103,7 +103,7 @@ export default function Home() {
           </div>
 
           <div>
-            <div className=' text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
+            <div className='bg-indigo-800 text-center shadow-lg p-10 rounded-xl my-10 hover:scale-110 transition duration-300 ease-in-out'>
               <Image className='mx-auto' src={card6} width={100} height={100}/>
               <h3 className=' text-lg font-medium pt-8 pb-2'>Hassle Free</h3>
               <p className='py-2'>
@@ -113,9 +113,8 @@ export default function Home() {
           </div>
           </div>
         </section>
-       
- </main>
-        <div className=' pt-3 bg-teal-600'>
+      </main>
+       <div className='p-10  bg-teal-600'>
         <Footer/>
        </div>
      
