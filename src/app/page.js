@@ -14,13 +14,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Credit Card Fraud</title>
+        <title>TechnoHacks EduTech</title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <div className="  bg-white text-black  md:px-20 lg:px-40 ">
         <section className=" text-black">
           <nav className=" py-10 mb-12 flex justify-between">
-            <h1 className="md:text-xl">developed by BigBitTheory</h1>
+            <h1 className="md:text-xl">developed by Priyam Shrivastava</h1>
             <ul className=" flex items-center">
               <li>
                 <BsFillMoonStarsFill className=" cursor-pointer text-2xl" />
@@ -38,7 +38,7 @@ export default function Home() {
 
           <div className=" text-center p-10 py-10">
             <h2 className=" text-5xl py-2 text-teal-600 font-medium md:text-6xl">
-              Social Dock
+              TechnoHacks EduTech
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">
               A place where excellent developers meet excellent projects
@@ -46,8 +46,10 @@ export default function Home() {
             <p className=" text-md py-5 leading-8 text-black md:text-xl max-w-xl mx-auto">
               It can be extremely difficult for developers to find collaborators
               for their projects and find people to discuss projects.<br></br>
-              <span className=" text-teal-600 text-2xl">Social Dock</span> aims
-              to solve this issue by providing the best social platform out
+              <span className=" text-teal-600 text-2xl">
+                TechnoHacks EduTech
+              </span>{" "}
+              aims to solve this issue by providing the best social platform out
               there for developers!
             </p>
           </div>
